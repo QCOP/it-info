@@ -16,19 +16,19 @@ Pretty simply: it's free, keeps a copy of all files and copies of previous years
 
 We have a QCOP organization. If you are not apart of this organization then you need to contact the co-chairs or the previous years co-chairs. They have `owner` permissions. All QCOP related code can be found [here](https://github.com/QCOP). Each year creates a new repository (In short: repo) for their website so following the naming convention `QCOP-20XX`. There is no copy of the [2016](https://github.com/qcop/qcop-2015) year however it was a fork of the 2015 in terms of looks, and the speaker and sponsor assets exists in [2017](https://github.com/qcop/qcop-2017).
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_1.png "Logo Title Text 2"
+![logo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_1.png "Logo Title Text 2")
 
 
 As an owner, you can create the new repository: click the `+` in the top right corner, then `New Repository`. From the new repository page you can change the owner (using the dropdown) to be `QCOP`. Insert the name (`QCOP-20__`) and the description (`The Queen's Conference on Philanthropy website for 20__-20__`). Keep the repository public because website assets are public anyway (plus private costs money). Check `Initialize this repository with a README`, and add an `Apache License`. Then click `Create repository`.
 
-[logo2]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "Logo Title Text 2"
+![logo2](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "Logo Title Text 2")
 
 
 ### Cloning your repository
 
 Now open your new repository, so the URL would be something like: `https://github.com/qcop/qcop-20XX`. It will look like:
 
-[logo3]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_3.png "Logo Title Text 2"
+![logo3](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_3.png "Logo Title Text 2")
 
 
 Keep this open. Now you need `git`. Git and Github are two different things. Git is a versioning software for developers. And Github at a high level is a UI for public Git servers. I'm not going to explain it too much more but if you do some Googling, someone explains it.
@@ -38,7 +38,7 @@ Keep this open. Now you need `git`. Git and Github are two different things. Git
 
 Go to [https://git-scm.com/](https://git-scm.com/) and hit the download on the right side.
 
-[logo4]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_4.png "Logo Title Text 2"
+![logo4](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_4.png "Logo Title Text 2")
 
 
 Now install that.
@@ -99,7 +99,7 @@ and see the one file.
 
 *Instructions from above in my terminal*
 
-[logo5]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png "Logo Title Text 2"
+![logo5](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png "Logo Title Text 2")
 
 
 Then type:
@@ -127,7 +127,7 @@ git push
 
 And you should see it on Github.
 
-[logo6]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_3.png "Logo Title Text 2"
+![logo6](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_3.png "Logo Title Text 2")
 
 
 So every time you want to update the website. Change the file, then follow the `add`, `commit`, `push` commands. If you ever have an issue, do `git status` and read the recommended commands.
@@ -138,12 +138,12 @@ So every time you want to update the website. Change the file, then follow the `
 
 On the repo, there is a settings tab. You'll have to open it.
 
-[logo7]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_1.png "Logo Title Text 2"
+![logo7](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_1.png "Logo Title Text 2")
 
 
 Scroll down to the `Github Pages` section. Use the `source` dropdown and select the `master branch`. This means all files on `master` will go to the website.
 
-[logo28]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2"
+![logo28](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2")
 
 
 Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the website. It may take a few minutes. If you can't after 2 hours, you did something wrong.
