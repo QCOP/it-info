@@ -21,7 +21,7 @@ We have a QCOP organization. If you are not apart of this organization then you 
 
 As an owner, you can create the new repository: click the `+` in the top right corner, then `New Repository`. From the new repository page you can change the owner (using the dropdown) to be `QCOP`. Insert the name (`QCOP-20__`) and the description (`The Queen's Conference on Philanthropy website for 20__-20__`). Keep the repository public because website assets are public anyway (plus private costs money). Check `Initialize this repository with a README`, and add an `Apache License`. Then click `Create repository`.
 
-![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "text")
+[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "Logo Title Text 2"
 
 
 ### Cloning your repository
