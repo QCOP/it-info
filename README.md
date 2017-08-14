@@ -98,6 +98,7 @@ git status
 and see the one file.
 
 *Instructions from above in my terminal*
+
 [logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png "Logo Title Text 2"
 
 
@@ -157,6 +158,9 @@ Next, QCOP's domain is registered with CanHost. The co-chairs should have the em
 
 
 [logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2"
+
 [logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2"
+
 [logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2"
+
 [logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2"
