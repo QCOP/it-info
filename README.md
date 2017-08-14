@@ -157,10 +157,10 @@ To get the QCOP domain to work on the Github pages so you go to `qcop.ca` instea
 Next, QCOP's domain is registered with CanHost. The co-chairs should have the email and password.
 
 
-[logo9]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2"
+![logo9](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2")
 
-[logo10]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2"
+![logo10](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2")
 
-[logo11]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2"
+![logo11](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2")
 
-[logo12]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2"
+![logo12](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2")
