@@ -49,7 +49,7 @@ Now install that.
 Open your repo Github page again. Under the green button, you'll see a URL. This should be `https`, if not click `Use HTTPS`. Copy it. It will be something like `https://github.com/qcop/qcop-20__.git`.
 
 
-Open a terminal (this is a program) on your computer. Navigate to the desired folder using:
+Open a terminal (this is a program) on your computer. If you are on windows, use the program called GitBash and anytime I reference terminal, its Gitbash. Navigate to the desired folder using:
 ```
 # Lists the current folders and files in your current directory
 ls
