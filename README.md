@@ -21,14 +21,14 @@ We have a QCOP organization. If you are not apart of this organization then you 
 
 As an owner, you can create the new repository: click the `+` in the top right corner, then `New Repository`. From the new repository page you can change the owner (using the dropdown) to be `QCOP`. Insert the name (`QCOP-20__`) and the description (`The Queen's Conference on Philanthropy website for 20__-20__`). Keep the repository public because website assets are public anyway (plus private costs money). Check `Initialize this repository with a README`, and add an `Apache License`. Then click `Create repository`.
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "Logo Title Text 2"
+[logo2]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png "Logo Title Text 2"
 
 
 ### Cloning your repository
 
 Now open your new repository, so the URL would be something like: `https://github.com/qcop/qcop-20XX`. It will look like:
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_3.png "Logo Title Text 2"
+[logo3]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_3.png "Logo Title Text 2"
 
 
 Keep this open. Now you need `git`. Git and Github are two different things. Git is a versioning software for developers. And Github at a high level is a UI for public Git servers. I'm not going to explain it too much more but if you do some Googling, someone explains it.
@@ -38,7 +38,7 @@ Keep this open. Now you need `git`. Git and Github are two different things. Git
 
 Go to [https://git-scm.com/](https://git-scm.com/) and hit the download on the right side.
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_4.png "Logo Title Text 2"
+[logo4]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_4.png "Logo Title Text 2"
 
 
 Now install that.
@@ -99,7 +99,7 @@ and see the one file.
 
 *Instructions from above in my terminal*
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png "Logo Title Text 2"
+[logo5]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png "Logo Title Text 2"
 
 
 Then type:
@@ -127,7 +127,7 @@ git push
 
 And you should see it on Github.
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_3.png "Logo Title Text 2"
+[logo6]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_3.png "Logo Title Text 2"
 
 
 So every time you want to update the website. Change the file, then follow the `add`, `commit`, `push` commands. If you ever have an issue, do `git status` and read the recommended commands.
@@ -138,12 +138,12 @@ So every time you want to update the website. Change the file, then follow the `
 
 On the repo, there is a settings tab. You'll have to open it.
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_1.png "Logo Title Text 2"
+[logo7]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_1.png "Logo Title Text 2"
 
 
 Scroll down to the `Github Pages` section. Use the `source` dropdown and select the `master branch`. This means all files on `master` will go to the website.
 
-[logo2]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2"
+[logo28]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2"
 
 
 Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the website. It may take a few minutes. If you can't after 2 hours, you did something wrong.
@@ -157,10 +157,10 @@ To get the QCOP domain to work on the Github pages so you go to `qcop.ca` instea
 Next, QCOP's domain is registered with CanHost. The co-chairs should have the email and password.
 
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2"
+[logo9]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2"
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2"
+[logo10]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2"
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2"
+[logo11]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2"
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2"
+[logo12]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2"
