@@ -16,18 +16,19 @@ Pretty simply: it's free, keeps a copy of all files and copies of previous years
 
 We have a QCOP organization. If you are not apart of this organization then you need to contact the co-chairs or the previous years co-chairs. They have `owner` permissions. All QCOP related code can be found [here](https://github.com/QCOP). Each year creates a new repository (In short: repo) for their website so following the naming convention `QCOP-20XX`. There is no copy of the [2016](https://github.com/qcop/qcop-2015) year however it was a fork of the 2015 in terms of looks, and the speaker and sponsor assets exists in [2017](https://github.com/qcop/qcop-2017).
 
-INSERT IMAGE 1 of menu with new repo
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_1.png)
+
 
 As an owner, you can create the new repository: click the `+` in the top right corner, then `New Repository`. From the new repository page you can change the owner (using the dropdown) to be `QCOP`. Insert the name (`QCOP-20__`) and the description (`The Queen's Conference on Philanthropy website for 20__-20__`). Keep the repository public because website assets are public anyway (plus private costs money). Check `Initialize this repository with a README`, and add an `Apache License`. Then click `Create repository`.
 
-INSERT IMAGE 2 of create repo page with QCOP
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_2.png)
 
 
 ### Cloning your repository
 
 Now open your new repository, so the URL would be something like: `https://github.com/qcop/qcop-20XX`. It will look like:
 
-INSERT IMAGE OF 2018 of repo with 2018
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_3.png)
 
 
 Keep this open. Now you need `git`. Git and Github are two different things. Git is a versioning software for developers. And Github at a high level is a UI for public Git servers. I'm not going to explain it too much more but if you do some Googling, someone explains it.
@@ -37,7 +38,7 @@ Keep this open. Now you need `git`. Git and Github are two different things. Git
 
 Go to [https://git-scm.com/](https://git-scm.com/) and hit the download on the right side.
 
-INSERT IMAGE OF download git
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step1_4.png)
 
 Now install that.
 
@@ -96,7 +97,7 @@ git status
 and see the one file.
 
 *Instructions from above in my terminal*
-INSERT IMAGE OF ALL INSTRUCTIONS
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_1.png)
 
 
 Then type:
@@ -111,7 +112,7 @@ git add FILE_NAME_LIKE_CHANGE_THIS
 # ./ <-- means current directory
 ```
 
-Then type:
+Then type (description cannot be blank):
 
 ```
 git commit -m "DESCRIBE WHAT YOU DID HERE"
@@ -122,13 +123,9 @@ Then push it to the cloud/Github:
 git push
 ```
 
-*Instructions from above in my terminal*
-INSERT IMAGE OF COMMANDS
-
-
 And you should see it on Github.
 
-INSERT IMAGE OF NEW FILE
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step2_3.png)
 
 So every time you want to update the website. Change the file, then follow the `add`, `commit`, `push` commands. If you ever have an issue, do `git status` and read the recommended commands.
 
@@ -138,11 +135,11 @@ So every time you want to update the website. Change the file, then follow the `
 
 On the repo, there is a settings tab. You'll have to open it.
 
-INSERT IMAGE
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_1.png)
 
 Scroll down to the `Github Pages` section. Use the `source` dropdown and select the `master branch`. This means all files on `master` will go to the website.
 
-INSERT IMAGE
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png)
 
 Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the website. It may take a few minutes. If you can't after 2 hours, you did something wrong.
 
@@ -153,3 +150,8 @@ To get the QCOP domain to work on the Github pages so you go to `qcop.ca` instea
 
 
 Next, QCOP's domain is registered with CanHost. The co-chairs should have the email and password.
+
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png)
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png)
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png)
+![New repo](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png)
