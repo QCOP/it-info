@@ -142,7 +142,7 @@ On the repo, there is a settings tab. You'll have to open it.
 
 Scroll down to the `Github Pages` section. Use the `source` dropdown and select the `master branch`. This means all files on `master` will go to the website.
 
-[logo]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2"
+[logo2]: https://raw.githubusercontent.com/QCOP/it-info/master/imgs/step3_2.png "Logo Title Text 2"
 
 
 Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the website. It may take a few minutes. If you can't after 2 hours, you did something wrong.
