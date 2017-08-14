@@ -174,6 +174,11 @@ On the left is a menu and at the bottom click `Manage DNS`.
 
 ![logo11](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2")
 
-Last step, change `CNAME` row, `rdata` column to be `qcop.github.io` and the `localhost.qcop.ca` row to be `http://qcop.github.io/qcop-20XX`. This will take a little while to kick in. 
+Last step, change `CNAME` row, `rdata` column to be `qcop.github.io` and the `localhost.qcop.ca` row to be `http://qcop.github.io/qcop-20XX`. This will take a little while to kick in.
 
 ![logo12](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2")
+
+
+## Collecting Applications
+
+You can use a few options around the internet. [TypeForm](https://typeform.com) is probably my recommendation.
