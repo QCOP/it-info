@@ -154,13 +154,26 @@ Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the w
 To get the QCOP domain to work on the Github pages so you go to `qcop.ca` instead of `https://qcop.github.io...`. You'll need to add a `CNAME` file to your repo (put one in the folder and push it to the server). This file is `CNAME` only, no extensions or anything. Look at the previous years to see an example. In this file add `qcop.ca`. You can open a file like this using [Atom](https://atom.io/), Sublime Text 3, Notepad++, Notepad, etc.
 
 
-Next, QCOP's domain is registered with CanHost. The co-chairs should have the email and password.
+Next, QCOP's domain is registered with [CanHost](https://canhost.ca). The co-chairs should have the email and password.
+
+
+Click on `Domains`.
 
 
 ![logo9](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepa.png "Logo Title Text 2")
 
+
+Then hit the little wrench next to `qcop.ca`.
+
+
 ![logo10](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepb.png "Logo Title Text 2")
 
+
+On the left is a menu and at the bottom click `Manage DNS`.
+
+
 ![logo11](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepc.png "Logo Title Text 2")
+
+Last step, change `CNAME` row, `rdata` column to be `qcop.github.io` and the `localhost.qcop.ca` row to be `http://qcop.github.io/qcop-20XX`. This will take a little while to kick in. 
 
 ![logo12](https://raw.githubusercontent.com/QCOP/it-info/master/imgs/stepd.png "Logo Title Text 2")
