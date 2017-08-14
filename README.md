@@ -57,15 +57,99 @@ cd ______
 
 # Navigates back a folder
 cd ..
+
+# Takes you to your desktop
+cd ~/Desktop
 ```
 
+I'd probably do something like:
+```
+cd ~/Desktop
+```
 
+Then clone the repository using that `git` link:
+
+```
+git clone https://github.com/qcop/qcop-20__.git
+```
+
+And you should see a new folder in that directory (folder). Then navigate into that directory using:
+
+```
+cd qcop-20__
+```
+
+You can also press `tab` to auto complete the folder if you are at a unique part.
+
+*Image with commands below*
 
 ### Making your commits
 
+Just as a test/example copy and paste a file into that folder (A file you don't mind being public). After doing that, in your terminal with the repo being your current directory (hence follow the `cd` into the correct folder).
+
+You should be able to type:
+
+```
+git status
+```
+
+and see the one file.
+
+*Instructions from above in my terminal*
+INSERT IMAGE OF ALL INSTRUCTIONS
+
+
+Then type:
+```
+git add --all
+```
+
+or to add each individual file:
+```
+git add FILE_NAME_LIKE_CHANGE_THIS
+# Example: git add ./example_file.txt
+# ./ <-- means current directory
+```
+
+Then type:
+
+```
+git commit -m "DESCRIBE WHAT YOU DID HERE"
+```
+
+Then push it to the cloud/Github:
+```
+git push
+```
+
+*Instructions from above in my terminal*
+INSERT IMAGE OF COMMANDS
+
+
+And you should see it on Github.
+
+INSERT IMAGE OF NEW FILE
+
+So every time you want to update the website. Change the file, then follow the `add`, `commit`, `push` commands. If you ever have an issue, do `git status` and read the recommended commands.
 
 
 
 ### Updating the GH-Pages Branch
 
+On the repo, there is a settings tab. You'll have to open it.
+
+INSERT IMAGE
+
+Scroll down to the `Github Pages` section. Use the `source` dropdown and select the `master branch`. This means all files on `master` will go to the website.
+
+INSERT IMAGE
+
+Now you should be able to go to `https://qcop.github.io/qcop-20__` and see the website. It may take a few minutes. If you can't after 2 hours, you did something wrong.
+
+
 ### Pointing the domain
+
+To get the QCOP domain to work on the Github pages so you go to `qcop.ca` instead of `https://qcop.github.io...`. You'll need to add a `CNAME` file to your repo (put one in the folder and push it to the server). This file is `CNAME` only, no extensions or anything. Look at the previous years to see an example. In this file add `qcop.ca`. You can open a file like this using [Atom](https://atom.io/), Sublime Text 3, Notepad++, Notepad, etc.
+
+
+Next, QCOP's domain is registered with CanHost. The co-chairs should have the email and password.
